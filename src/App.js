@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Lamp from "./Lamp.js"
-import Quote from "./Quote";
+import Quote from "./Quote.js";
+import Quotes from "./Quotes.js"
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +46,9 @@ class App extends Component {
           character="Ralph Wiggum"
           image="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FRalphWiggum.png?1497567511523"
         /> 
+        <section>
+          <Quotes />
+        </section>
       </div>
     );
   }
